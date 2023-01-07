@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/laco-css/static/css/main.073c9b0a.css",
-    "main.js": "/laco-css/static/js/main.6490d198.js",
+    "main.css": "/laco-css/static/css/main.826d5050.css",
+    "main.js": "/laco-css/static/js/main.7b997bdc.js",
     "static/js/787.41cdc291.chunk.js": "/laco-css/static/js/787.41cdc291.chunk.js",
-    "static/media/logo.svg": "/laco-css/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/laco-css/index.html",
-    "main.073c9b0a.css.map": "/laco-css/static/css/main.073c9b0a.css.map",
-    "main.6490d198.js.map": "/laco-css/static/js/main.6490d198.js.map",
+    "main.826d5050.css.map": "/laco-css/static/css/main.826d5050.css.map",
+    "main.7b997bdc.js.map": "/laco-css/static/js/main.7b997bdc.js.map",
     "787.41cdc291.chunk.js.map": "/laco-css/static/js/787.41cdc291.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6490d198.js"
+    "static/css/main.826d5050.css",
+    "static/js/main.7b997bdc.js"
   ]
 }
