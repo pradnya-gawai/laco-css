@@ -1,21 +1,24 @@
 import "./index";
 import "./assets/css/App.scss";
 import Header from "./components/Layout/Header";
+import Sidebar from "./components/Layout/Sidebar";
 
 function App() {
   return (
     <div className="project-container">
       <header>
-        <div class="child">
+        <div className="child">
           <Header />
         </div>
       </header>
       <section className="content-wrapper">
-        <div class="child">aside</div>
-        <div class="child main-content">Content</div>
+        <div className="child">
+          <Sidebar/>
+        </div>
+        <div className="child main-content">Content</div>
       </section>
       <footer>
-        <div class="child">Footer</div>
+        <div className="child">Footer</div>
       </footer>
     </div>
   );
