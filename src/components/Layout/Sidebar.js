@@ -11,7 +11,7 @@ function Sidebar(props) {
                 <span className="link_name">Dashboard</span>
               </a>
               <ul className="sub-menu blank">
-                <li>
+                <li className="sub-menu-content">
                   <a className="link_name" href="#">
                     dashbord1
                   </a>
@@ -24,18 +24,18 @@ function Sidebar(props) {
                 </a>
                 <i className="bx bxs-chevron-down arrow"></i>
               <ul className="sub-menu">
-                <li>
+                <li className="sub-menu-content">
                   <a className="link_name" href="#">
                     Category
                   </a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">HTML & CSS</a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">JavaScript</a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">PHP & MySQL</a>
                 </li>
               </ul>
@@ -45,18 +45,18 @@ function Sidebar(props) {
                   <span className="link_name">Posts</span>
                 </a>
               <ul className="sub-menu">
-                <li>
-                  <a className="link_name" href="#">
+                <li className="sub-menu-content">
+                  <a  href="#">
                     Posts
                   </a>
                 </li>
-                <li>
-                  <a href="#">Web Design</a>
+                <li className="sub-menu-content">
+                  <a href="#" >Web Design</a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">Login Form</a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">Card Design</a>
                 </li>
               </ul>
@@ -78,7 +78,7 @@ function Sidebar(props) {
                 <span className="link_name">Chart</span>
               </a>
               <ul className="sub-menu blank">
-                <li>
+                <li className="sub-menu-content">
                   <a className="link_name" href="#">
                     Chart
                   </a>
@@ -95,13 +95,13 @@ function Sidebar(props) {
                     Plugins
                   </a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">UI Face</a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">Pigments</a>
                 </li>
-                <li>
+                <li className="sub-menu-content">
                   <a href="#">Box Icons</a>
                 </li>
               </ul>

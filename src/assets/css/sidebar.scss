@@ -29,7 +29,7 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li:hover{
-  background: #1d1b31;
+  background: #d7ea97;
 }
 .sidebar .nav-links li .iocn-link{
   display: flex;
@@ -67,14 +67,14 @@
 .sidebar .nav-links li .sub-menu{
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: #1d1b31;
+  background: white;
   display: none;
 }
 .sidebar .nav-links li.showMenu .sub-menu{
   display: block;
 }
 .sidebar .nav-links li .sub-menu a{
-  color: #fff;
+  color: black;
   font-size: 15px;
   padding: 5px 0;
   white-space: nowrap;
@@ -110,10 +110,13 @@
   opacity: 1;
   display: block;
 }
+.sub-menu-content{
+  padding:2px;
+}
 .sidebar .nav-links li .sub-menu.blank{
   opacity: 1;
   pointer-events: auto;
-  padding: 3px 20px 6px 16px;
+  padding: 8px;
   opacity: 0;
   pointer-events: none;
 }
