@@ -3,10 +3,10 @@ import "../../assets/css/sidebar.scss"
 
 function Sidebar(props) {
   return (
-    <div>
+    <>
         <div className="sidebar close">
           <ul className="nav-links">
-            <li>
+            <li className="main-menu">
               <a href="#">
                 <span className="link_name">Dashboard</span>
               </a>
@@ -18,13 +18,11 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
-              <div className="iocn-link">
+            <li className="main-menu">
                 <a href="#">
                   <span className="link_name">Category</span>
                 </a>
                 <i className="bx bxs-chevron-down arrow"></i>
-              </div>
               <ul className="sub-menu">
                 <li>
                   <a className="link_name" href="#">
@@ -42,12 +40,10 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
-              <div className="iocn-link">
+            <li className="main-menu">
                 <a href="#">
                   <span className="link_name">Posts</span>
                 </a>
-              </div>
               <ul className="sub-menu">
                 <li>
                   <a className="link_name" href="#">
@@ -65,7 +61,7 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="main-menu">
               <a href="#">
                 <span className="link_name">Analytics</span>
               </a>
@@ -77,7 +73,7 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="main-menu">
               <a href="#">
                 <span className="link_name">Chart</span>
               </a>
@@ -89,12 +85,10 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
-              <div className="iocn-link">
+            <li className="main-menu">
                 <a href="#">
                   <span className="link_name">Plugins</span>
                 </a>
-              </div>
               <ul className="sub-menu">
                 <li>
                   <a className="link_name" href="#">
@@ -112,19 +106,19 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="main-menu">
               <a href="#">
                 <span className="link_name">Explore</span>
               </a>
               <ul className="sub-menu blank">
-                <li>
+                <li className="main-menu">
                   <a className="link_name" href="#">
                     Explore
                   </a>
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="main-menu">
               <a href="#">
                 <span className="link_name">History</span>
               </a>
@@ -136,7 +130,7 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="main-menu">
               <a href="#">
                 <span className="link_name">Setting</span>
               </a>
@@ -148,12 +142,46 @@ function Sidebar(props) {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="main-menu">
+              <a href="#">
+                <span className="link_name">Setting</span>
+              </a>
+              <ul className="sub-menu blank">
+                <li>
+                  <a className="link_name" href="#">
+                    Setting
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="main-menu">
+              <a href="#">
+                <span className="link_name">Setting</span>
+              </a>
+              <ul className="sub-menu blank">
+                <li>
+                  <a className="link_name" href="#">
+                    Setting
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="main-menu">
+              <a href="#">
+                <span className="link_name">Setting</span>
+              </a>
+              <ul className="sub-menu blank">
+                <li>
+                  <a className="link_name" href="#">
+                    Setting
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
 
-    </div>
+    </>
   );
 }
 

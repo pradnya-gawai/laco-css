@@ -11,11 +11,14 @@
 }
 .sidebar .nav-links{
   height: 100%;
-  padding: 30px 0 150px 0;
-  overflow: auto;
+  padding: inherit;
+  // overflow: hidden;
 }
-.sidebar.close .nav-links{
-  overflow: visible;
+// .sidebar.close .nav-links{
+//   overflow: visible;
+// }
+.main-menu{
+  padding:8px 6px;
 }
 .sidebar .nav-links::-webkit-scrollbar{
   display: none;
